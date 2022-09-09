@@ -1,0 +1,18 @@
+{
+  "name": "FrontendMentor-challenge08",
+  "version": "1.0.0",
+  "description": "Expenses chart component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miranlegin/fem-expenses-chart"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.8",
+    "grunt": "^1.5.3",
+    "grunt-assemble": "^0.6.3",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-postcss": "^0.9.0",
+    "postcss": "^8.4.16"
+  }
+}
