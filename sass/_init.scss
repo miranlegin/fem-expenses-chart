@@ -1,3 +1,13 @@
+$breakpoint: 48em;
+
+:root {
+  --br100: 0.5rem;
+
+  @media (min-width: $breakpoint) {
+    --br100: 1.25rem;
+  }
+}
+
 // colors
 
 $soft-red: hsl(10, 79%, 65%);
@@ -18,4 +28,15 @@ $body-inline: 1rem;
 $widget-wide: 540px;
 
 $br-25: 0.25rem;
-$br-100: 1rem;
+
+// animation
+
+@keyframes bar {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
